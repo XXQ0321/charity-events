@@ -9,7 +9,47 @@ body {
   color: #444;
   background-color: #fafafa;
 }
+/* Navigation bar - classic style */
+.navbar {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
 
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo h2 {
+  color: #333;
+  font-weight: normal;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #666;
+  transition: color 0.3s ease;
+  border-bottom: 1px solid transparent;
+}
+
+.nav-menu a:hover {
+  color: #333;
+  border-bottom-color: #333;
+}
 /* Hero section - minimal style */
 .hero-section {
   background-color: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
