@@ -9,6 +9,7 @@ body {
   color: #444;
   background-color: #fafafa;
 }
+
 /* Navigation bar - classic style */
 .navbar {
   background-color: #f5f5f5;
@@ -50,6 +51,7 @@ body {
   color: #333;
   border-bottom-color: #333;
 }
+
 /* Hero section - minimal style */
 .hero-section {
   background-color: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
@@ -105,6 +107,7 @@ body {
   border-bottom: 2px solid #f0f0f0;
   padding-bottom: 10px;
 }
+
 /* Category section - list style */
 .category-section {
   background-color: #fff;
@@ -144,6 +147,7 @@ body {
 .category-events.active {
   display: block;
 }
+
 /* Event item - list style, not cards */
 .event-item {
   padding: 25px;
@@ -164,6 +168,7 @@ body {
   margin-bottom: 15px;
   font-weight: normal;
 }
+
 .event-status {
   display: inline-block;
   padding: 4px 12px;
@@ -413,4 +418,65 @@ body {
 .ticket-info p {
   margin: 8px 0;
   color: #666;
+}
+
+/* Error message */
+.error-message {
+  background-color: #ffebee;
+  color: #c62828;
+  padding: 15px;
+  border: 1px solid #ffcdd2;
+  border-radius: 2px;
+}
+
+/* Link styles */
+a {
+  color: #666;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #333;
+  border-bottom-color: #333;
+}
+
+/* Image styles */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
+/* Hidden elements */
+.hidden {
+  display: none;
+}
+
+.event-card {
+  display: flex;
+}
+
+.event-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.event-card:nth-child(n + 2) {
+  margin-top: 20px;
+}
+
+.event-card img {
+  width: 48%;
+  height: 314px;
+  object-fit: cover;
+}
+
+.event-card .event-info {
+  width: 48%;
+}
+
+.event-card .event-info {
+  width: 48%;
 }
