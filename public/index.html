@@ -49,8 +49,53 @@
       </div>
     </div>
   </div>
+  <!-- Search Page -->
+  <div id="search-page" class="page" style="display: none">
+    <div class="search-container">
+      <h2>Search Events</h2>
+      <form id="search-form" class="search-form" onsubmit="handleSearch(event)">
+        <div class="form-group">
+          <label for="dateFrom">Start Date:</label>
+          <input lang="en" type="date" id="dateFrom" name="dateFrom" />
+        </div>
 
-  
+        <div class="form-group">
+          <label for="dateTo">End Date:</label>
+          <input lang="en" type="date" id="dateTo" name="dateTo" />
+        </div>
+
+        <div class="form-group">
+          <label for="location">Location:</label>
+          <input type="text" id="location" name="location" placeholder="Enter location" />
+        </div>
+
+        <div class="form-group">
+          <label for="category">Event Category:</label>
+          <select id="category" name="category">
+            <option value="">All Categories</option>
+            <option value="fun run">Fun Run</option>
+            <option value="gala">Gala</option>
+            <option value="auction">Auction</option>
+            <option value="food festival">Food Festival</option>
+            <option value="concert">Concert</option>
+            <option value="workshop">Workshop</option>
+          </select>
+        </div>
+
+        <div class="form-buttons">
+          <button type="submit">Search</button>
+          <button type="button" onclick="clearSearchForm()">
+            Clear Filters
+          </button>
+        </div>
+      </form>
+
+      <div id="search-results">
+        <!-- Search results will be displayed here -->
+      </div>
+
+    </div>
+  </div>
 
   <script src="app.js"></script>
 </body>
