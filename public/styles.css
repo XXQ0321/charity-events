@@ -105,3 +105,62 @@ body {
   border-bottom: 2px solid #f0f0f0;
   padding-bottom: 10px;
 }
+/* Category section - list style */
+.category-section {
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 2px;
+}
+
+.category-header {
+  padding: 20px 25px;
+  background-color: #f8f8f8;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.category-header:hover {
+  background-color: #f0f0f0;
+}
+
+.category-header h3 {
+  color: #333;
+  font-weight: normal;
+}
+
+.category-header span {
+  color: #888;
+}
+
+.category-events {
+  display: none;
+  padding: 0;
+}
+
+.category-events.active {
+  display: block;
+}
+/* Event item - list style, not cards */
+.event-item {
+  padding: 25px;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+
+.event-item:last-child {
+  border-bottom: none;
+}
+
+.event-item:hover {
+  background-color: #fafafa;
+}
+
+.event-item h3 {
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
