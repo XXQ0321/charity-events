@@ -164,3 +164,253 @@ body {
   margin-bottom: 15px;
   font-weight: normal;
 }
+.event-status {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 2px;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+
+.status-upcoming {
+  background-color: #e3f2fd;
+  color: #1976d2;
+  border: 1px solid #bbdefb;
+}
+
+.status-ongoing {
+  background-color: #e8f5e8;
+  color: #2e7d32;
+  border: 1px solid #c8e6c9;
+}
+
+.status-past {
+  background-color: #fafafa;
+  color: #757575;
+  border: 1px solid #e0e0e0;
+}
+
+.event-details {
+  margin-bottom: 20px;
+}
+
+.event-details p {
+  margin: 8px 0;
+  color: #666;
+}
+
+.event-details strong {
+  color: #444;
+  font-weight: normal;
+}
+
+/* Buttons - minimal style */
+.event-actions {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  color: #666;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 2px;
+}
+
+.btn:hover {
+  background-color: #f5f5f5;
+  color: #333;
+  border-color: #999;
+}
+
+.btn-primary {
+  background-color: #f0f0f0;
+  border-color: #ccc;
+  color: #333;
+}
+
+.btn-primary:hover {
+  background-color: #e0e0e0;
+  border-color: #999;
+}
+
+/* Search page */
+.search-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.search-container h2 {
+  color: #333;
+  font-weight: normal;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.search-form {
+  background-color: #fff;
+  padding: 35px;
+  border: 1px solid #e8e8e8;
+  border-radius: 2px;
+}
+
+
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #999;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+/* Search results - list style */
+#search-results {
+  margin-top: 10px;
+}
+
+#search-results h3 {
+  color: #333;
+  margin-bottom: 25px;
+  font-weight: normal;
+}
+
+.events-list .event-item {
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+
+/* Event detail page - traditional layout */
+.event-detail-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.back-button {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 2px;
+}
+
+.back-button:hover {
+  background-color: #e0e0e0;
+  border-color: #999;
+}
+
+.event-detail-header {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #e8e8e8;
+  border-radius: 2px;
+}
+
+.event-detail-header img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.event-detail-header h2 {
+  color: #333;
+  font-weight: normal;
+}
+
+.event-meta p {
+  margin: 10px 0;
+  color: #666;
+}
+
+.event-description {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #e8e8e8;
+  border-radius: 2px;
+}
+
+.event-description h3 {
+  color: #333;
+  font-weight: normal;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.event-description p {
+  color: #555;
+  line-height: 1.8;
+}
+
+.progress-section {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #e8e8e8;
+  border-radius: 2px;
+}
+
+.progress-section h3 {
+  color: #333;
+  font-weight: normal;
+}
+
+.progress-bar {
+  background-color: #f0f0f0;
+  height: 30px;
+  border-radius: 2px;
+  overflow: hidden;
+  border: 1px solid #e0e0e0;
+}
+
+.progress-fill {
+  background-color: #4caf50;
+  height: 100%;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  transition: width 0.3s ease;
+}
+
+.registration-section {
+  background-color: #fff;
+  padding: 40px;
+  border: 1px solid #e8e8e8;
+  border-radius: 2px;
+}
+
+.registration-section h3 {
+  color: #333;
+  font-weight: normal;
+}
+
+.ticket-info p {
+  margin: 8px 0;
+  color: #666;
+}
